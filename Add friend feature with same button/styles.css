@@ -1,0 +1,67 @@
+body,html{
+    height:100%;
+    width: 100%;
+}
+ 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(122, 182, 178);
+}
+
+.card{
+    height: 599px;
+    width: 520;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+.card image{
+    height: 50%;
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+    border-radius: 20px;
+}
+.card h1{
+    padding-top: 20px;
+    font-weight: 800;
+}
+.card h4{
+    font-size: 35px;
+    margin-top: 15px;
+    color: red;
+}
+
+.btn{
+    margin-top: 20px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.btn #add{
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(140, 204, 38);
+}
+
+/* .btn #remove{
+    font-size: 30px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(249, 238, 221);
+} */
+
+
+
